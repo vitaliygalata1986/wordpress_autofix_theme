@@ -1,0 +1,219 @@
+[
+    {
+        "key": "group_autofix_prices",
+        "title": "AUTO FIX — Вартість робіт",
+        "fields": [
+            {
+                "key": "field_autofix_prices_tab_heading",
+                "label": "Заголовок секції",
+                "name": "",
+                "type": "tab",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_autofix_prices_eyebrow",
+                "label": "Підпис секції",
+                "name": "prices_eyebrow",
+                "type": "text",
+                "required": 0,
+                "default_value": "02 / ВАРТІСТЬ РОБІТ"
+            },
+            {
+                "key": "field_autofix_prices_title",
+                "label": "Заголовок секції",
+                "name": "prices_title",
+                "type": "textarea",
+                "instructions": "Enter додає перенесення рядка. HTML не потрібен.",
+                "required": 1,
+                "default_value": "Більше ясності.\nМенше несподіванок.",
+                "rows": 2,
+                "new_lines": ""
+            },
+            {
+                "key": "field_autofix_prices_demo_label",
+                "label": "Позначка прайсу",
+                "name": "prices_demo_label",
+                "type": "text",
+                "required": 0,
+                "default_value": "Демонстраційний прайс"
+            },
+            {
+                "key": "field_autofix_prices_intro",
+                "label": "Пояснення біля заголовка",
+                "name": "prices_intro",
+                "type": "textarea",
+                "instructions": "Enter додає перенесення рядка.",
+                "required": 0,
+                "default_value": "Ціни нижче — орієнтири для макета.\nФактичну вартість і доступність послуг\nпотрібно уточнити телефоном.",
+                "rows": 3,
+                "new_lines": ""
+            },
+            {
+                "key": "field_autofix_prices_tab_rows",
+                "label": "Прайс",
+                "name": "",
+                "type": "tab",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_autofix_prices_rows",
+                "label": "Роботи та ціни",
+                "name": "prices_rows",
+                "type": "repeater",
+                "instructions": "Додайте рядки з таблиці README. Категорія визначає вкладку фільтра. Сума має бути цілим числом у гривнях.",
+                "required": 0,
+                "layout": "block",
+                "min": 0,
+                "max": 0,
+                "collapsed": "field_autofix_prices_service",
+                "button_label": "Додати роботу",
+                "sub_fields": [
+                    {
+                        "key": "field_autofix_prices_service",
+                        "label": "Послуга",
+                        "name": "service",
+                        "type": "text",
+                        "required": 1,
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_autofix_prices_dialog_service",
+                        "label": "Назва послуги у списку вибору",
+                        "name": "dialog_service",
+                        "type": "text",
+                        "instructions": "Необов’язкове уточнення назви для діалогу вибраних робіт. Якщо порожнє, використовується назва послуги.",
+                        "required": 0,
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_autofix_prices_description",
+                        "label": "Пояснення до послуги",
+                        "name": "description",
+                        "type": "text",
+                        "required": 0,
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_autofix_prices_category",
+                        "label": "Категорія фільтра",
+                        "name": "category",
+                        "type": "select",
+                        "required": 1,
+                        "choices": {
+                            "maintenance": "ТО",
+                            "diagnostics": "Діагностика",
+                            "chassis": "Ходова й гальма",
+                            "engine": "Двигун",
+                            "climate": "Клімат"
+                        },
+                        "default_value": "maintenance",
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value"
+                    },
+                    {
+                        "key": "field_autofix_prices_price",
+                        "label": "Ціна роботи від, грн",
+                        "name": "price",
+                        "type": "number",
+                        "required": 1,
+                        "default_value": 0,
+                        "min": 0,
+                        "step": 1,
+                        "prepend": "грн"
+                    }
+                ]
+            },
+            {
+                "key": "field_autofix_prices_footnote",
+                "label": "Примітка під прайсом",
+                "name": "prices_footnote",
+                "type": "textarea",
+                "instructions": "Enter додає перенесення рядка.",
+                "required": 0,
+                "default_value": "* Вартість залежить від моделі, стану авто та складності доступу. Запчастини й витратні матеріали розраховуються окремо. Це не остаточний кошторис.",
+                "rows": 3,
+                "new_lines": ""
+            },
+            {
+                "key": "field_autofix_prices_tab_estimate",
+                "label": "Оцінка вартості",
+                "name": "",
+                "type": "tab",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_autofix_prices_estimate_eyebrow",
+                "label": "Підпис картки",
+                "name": "prices_estimate_eyebrow",
+                "type": "text",
+                "required": 0,
+                "default_value": "ВАШ СЕРВІСНИЙ СПИСОК"
+            },
+            {
+                "key": "field_autofix_prices_estimate_title",
+                "label": "Заголовок картки",
+                "name": "prices_estimate_title",
+                "type": "textarea",
+                "instructions": "Enter додає перенесення рядка.",
+                "required": 0,
+                "default_value": "Сплануйте\nсвій візит.",
+                "rows": 2,
+                "new_lines": ""
+            },
+            {
+                "key": "field_autofix_prices_estimate_description",
+                "label": "Опис картки",
+                "name": "prices_estimate_description",
+                "type": "textarea",
+                "instructions": "Enter додає перенесення рядка.",
+                "required": 0,
+                "default_value": "Позначте потрібні роботи у списку. Ми підсумуємо орієнтовну вартість.",
+                "rows": 3,
+                "new_lines": ""
+            },
+            {
+                "key": "field_autofix_prices_estimate_note",
+                "label": "Примітка до розрахунку",
+                "name": "prices_estimate_note",
+                "type": "textarea",
+                "instructions": "Enter додає перенесення рядка.",
+                "required": 0,
+                "default_value": "Орієнтир за демонстраційним прайсом.\nБез запчастин і витратних матеріалів.",
+                "rows": 2,
+                "new_lines": ""
+            },
+            {
+                "key": "field_autofix_prices_estimate_phone",
+                "label": "Посилання для уточнення ціни",
+                "name": "prices_estimate_phone",
+                "type": "link",
+                "instructions": "Початкове посилання: tel:+380660568121, підпис: Уточнити ціну телефоном.",
+                "required": 0,
+                "return_format": "array"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "acf/prices-section"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "Поля секції 02 / Вартість робіт. Потрібен ACF PRO.",
+        "show_in_rest": 0
+    }
+]

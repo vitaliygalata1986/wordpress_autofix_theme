@@ -1,0 +1,160 @@
+[
+    {
+        "key": "group_autofix_hero",
+        "title": "AUTO FIX — Головний екран",
+        "fields": [
+            {
+                "key": "field_autofix_hero_tab_content",
+                "label": "Тексти",
+                "name": "",
+                "type": "tab",
+                "required": 0,
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_autofix_hero_eyebrow",
+                "label": "Підпис над заголовком",
+                "name": "hero_eyebrow",
+                "type": "text",
+                "required": 0,
+                "default_value": "AUTO FIX · АВТОСЕРВІС У МИКОЛАЄВІ"
+            },
+            {
+                "key": "field_autofix_hero_title",
+                "label": "Заголовок до виділеного слова",
+                "name": "hero_title",
+                "type": "textarea",
+                "required": 0,
+                "default_value": "Ваше авто.\nНаша",
+                "rows": 2,
+                "new_lines": "",
+                "instructions": "Enter додає перенесення рядка. Виділене слово додається після цього тексту через пробіл."
+            },
+            {
+                "key": "field_autofix_hero_title_accent",
+                "label": "Виділене слово",
+                "name": "hero_title_accent",
+                "type": "text",
+                "required": 0,
+                "default_value": "справа."
+            },
+            {
+                "key": "field_autofix_hero_description",
+                "label": "Опис",
+                "name": "hero_description",
+                "type": "textarea",
+                "required": 0,
+                "default_value": "Від діагностики ходової на вібростенді\nдо капітального ремонту двигуна.\nПовний спектр послуг для вашого авто.",
+                "rows": 3,
+                "new_lines": ""
+            },
+            {
+                "key": "field_autofix_hero_note",
+                "label": "Адреса під кнопками",
+                "name": "hero_note",
+                "type": "text",
+                "required": 0,
+                "default_value": "Миколаїв · вул. Троїцька, 244 · авторинок, бокс 10"
+            },
+            {
+                "key": "field_autofix_hero_tab_image",
+                "label": "Зображення",
+                "name": "",
+                "type": "tab",
+                "required": 0,
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_autofix_hero_image",
+                "label": "Фонове зображення",
+                "name": "hero_image",
+                "type": "image",
+                "required": 0,
+                "return_format": "id",
+                "preview_size": "medium",
+                "library": "all",
+                "instructions": "Без вибраного зображення використовується assets/image/workshop.webp. Alt береться з медіатеки."
+            },
+            {
+                "key": "field_autofix_hero_image_note",
+                "label": "Підпис зображення",
+                "name": "hero_image_note",
+                "type": "text",
+                "required": 0,
+                "default_value": "Візуалізація сервісу"
+            },
+            {
+                "key": "field_autofix_hero_caption",
+                "label": "Перший рядок підпису праворуч",
+                "name": "hero_caption",
+                "type": "text",
+                "required": 0,
+                "default_value": "УВАГА ДО ДЕТАЛЕЙ."
+            },
+            {
+                "key": "field_autofix_hero_caption_accent",
+                "label": "Другий рядок підпису праворуч",
+                "name": "hero_caption_accent",
+                "type": "text",
+                "required": 0,
+                "default_value": "ВПЕВНЕНІСТЬ У РУСІ."
+            },
+            {
+                "key": "field_autofix_hero_tab_links",
+                "label": "Кнопки та навігація",
+                "name": "",
+                "type": "tab",
+                "required": 0,
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_autofix_hero_primary_link",
+                "label": "Основна кнопка",
+                "name": "hero_primary_link",
+                "type": "link",
+                "required": 0,
+                "return_format": "array",
+                "instructions": "Початкові значення: URL — #contacts, текст — Записатися на сервіс. Порожнє посилання не виводиться."
+            },
+            {
+                "key": "field_autofix_hero_secondary_link",
+                "label": "Додаткова кнопка",
+                "name": "hero_secondary_link",
+                "type": "link",
+                "required": 0,
+                "return_format": "array",
+                "instructions": "Початкові значення: URL — #prices, текст — Переглянути ціни. Порожнє посилання не виводиться."
+            },
+            {
+                "key": "field_autofix_hero_scroll_link",
+                "label": "Посилання прокрутки",
+                "name": "hero_scroll_link",
+                "type": "link",
+                "required": 0,
+                "return_format": "array",
+                "instructions": "Початкові значення: URL — #services, текст — ГОРТАЙТЕ ДАЛІ. Порожнє посилання не виводиться."
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "acf/hero-section"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "Поля першого екрана AUTO FIX.",
+        "show_in_rest": 0
+    }
+]

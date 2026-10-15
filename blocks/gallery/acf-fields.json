@@ -1,0 +1,109 @@
+[
+    {
+        "key": "group_autofix_gallery",
+        "title": "AUTO FIX — Наш сервіс зблизька",
+        "fields": [
+            {
+                "key": "field_autofix_gallery_eyebrow",
+                "label": "Підпис секції",
+                "name": "gallery_eyebrow",
+                "type": "text",
+                "required": 0,
+                "default_value": "04 / НАШ СЕРВІС ЗБЛИЗЬКА"
+            },
+            {
+                "key": "field_autofix_gallery_title",
+                "label": "Заголовок секції",
+                "name": "gallery_title",
+                "type": "textarea",
+                "required": 1,
+                "default_value": "Наші люди.\nНаші робочі будні.",
+                "rows": 2,
+                "new_lines": "",
+                "instructions": "Enter додає перенесення рядка. HTML не потрібен."
+            },
+            {
+                "key": "field_autofix_gallery_intro",
+                "label": "Опис біля заголовка",
+                "name": "gallery_intro",
+                "type": "textarea",
+                "required": 0,
+                "default_value": "Обладнання, деталі та автомобілі в роботі.\nКадри з життя AUTO FIX.",
+                "rows": 3,
+                "new_lines": ""
+            },
+            {
+                "key": "field_autofix_gallery_label",
+                "label": "Доступна назва галереї",
+                "name": "gallery_label",
+                "type": "text",
+                "required": 1,
+                "default_value": "Фотографії автосервісу AUTO FIX",
+                "instructions": "Назва для користувачів екранних дикторів."
+            },
+            {
+                "key": "field_autofix_gallery_slides",
+                "label": "Фотографії",
+                "name": "gallery_slides",
+                "type": "repeater",
+                "required": 1,
+                "layout": "block",
+                "min": 1,
+                "max": 0,
+                "collapsed": "field_autofix_gallery_slide_title",
+                "button_label": "Додати фото",
+                "instructions": "Додайте фото й підпис. Перетягуйте рядки для зміни порядку. Номери формуються автоматично.",
+                "sub_fields": [
+                    {
+                        "key": "field_autofix_gallery_slide_image",
+                        "label": "Фотографія",
+                        "name": "image",
+                        "type": "image",
+                        "required": 1,
+                        "return_format": "id",
+                        "preview_size": "medium",
+                        "library": "all",
+                        "mime_types": "jpg,jpeg,png,webp,avif",
+                        "instructions": "Оберіть фото з медіатеки. Альтернативний текст задається у властивостях зображення."
+                    },
+                    {
+                        "key": "field_autofix_gallery_slide_title",
+                        "label": "Підпис фотографії",
+                        "name": "title",
+                        "type": "text",
+                        "required": 1,
+                        "default_value": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_autofix_gallery_hint",
+                "label": "Підказка під галереєю",
+                "name": "gallery_hint",
+                "type": "textarea",
+                "required": 0,
+                "default_value": "Натисніть на фото, щоб роздивитися його у повному розмірі.",
+                "rows": 2,
+                "new_lines": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "acf/gallery-section"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "Поля секції 04 / Наш сервіс зблизька. Потрібен ACF PRO.",
+        "show_in_rest": 0
+    }
+]

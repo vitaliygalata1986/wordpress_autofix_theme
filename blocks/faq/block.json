@@ -1,0 +1,34 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "acf/faq-section",
+    "title": "Корисно знати",
+    "description": "Секція з відповідями на поширені питання та контактним посиланням.",
+    "category": "autofix-blocks",
+    "icon": "editor-help",
+    "keywords": [
+        "FAQ",
+        "питання",
+        "відповіді",
+        "корисно знати"
+    ],
+    "textdomain": "autofix",
+    "supports": {
+        "anchor": true,
+        "align": false,
+        "multiple": false
+    },
+    "acf": {
+        "blockVersion": 2,
+        "mode": "edit",
+        "renderTemplate": "faq-section.php"
+    },
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "preview_image": "/blocks/faq/faq.jpg"
+            }
+        }
+    }
+}

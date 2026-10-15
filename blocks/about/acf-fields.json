@@ -1,0 +1,141 @@
+[
+    {
+        "key": "group_autofix_about",
+        "title": "AUTO FIX — Наш підхід",
+        "fields": [
+            {
+                "key": "field_autofix_about_tab_content",
+                "label": "Тексти секції",
+                "name": "",
+                "type": "tab",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_autofix_about_eyebrow",
+                "label": "Підпис секції",
+                "name": "about_eyebrow",
+                "type": "text",
+                "instructions": "Номер і коротка назва секції над заголовком.",
+                "required": 0,
+                "default_value": "03 / НАШ ПІДХІД"
+            },
+            {
+                "key": "field_autofix_about_title_start",
+                "label": "Перша частина заголовка",
+                "name": "about_title_start",
+                "type": "textarea",
+                "instructions": "Текст перед акцентом. Enter додає перенесення рядка.",
+                "required": 1,
+                "default_value": "Стан ходової —",
+                "rows": 2,
+                "new_lines": ""
+            },
+            {
+                "key": "field_autofix_about_title_accent",
+                "label": "Акцентна частина заголовка",
+                "name": "about_title_accent",
+                "type": "textarea",
+                "instructions": "Виводиться червоним кольором. Enter додає перенесення рядка.",
+                "required": 1,
+                "default_value": "під реальним\nнавантаженням.",
+                "rows": 2,
+                "new_lines": ""
+            },
+            {
+                "key": "field_autofix_about_lead",
+                "label": "Основний текст",
+                "name": "about_lead",
+                "type": "textarea",
+                "instructions": "Короткий опис під заголовком. Enter додає перенесення рядка.",
+                "required": 0,
+                "default_value": "В AUTO FIX перевіряємо ходову на сучасному німецькому вібростенді. Діагностика під навантаженням допомагає чіткіше зрозуміти стан автомобіля та визначити, що потребує уваги.",
+                "rows": 4,
+                "new_lines": ""
+            },
+            {
+                "key": "field_autofix_about_tab_points",
+                "label": "Переваги",
+                "name": "",
+                "type": "tab",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_autofix_about_points",
+                "label": "Пункти секції",
+                "name": "about_points",
+                "type": "repeater",
+                "instructions": "У вихідній секції три пункти. Номери 01, 02… формуються автоматично.",
+                "required": 0,
+                "layout": "block",
+                "min": 0,
+                "max": 0,
+                "collapsed": "field_autofix_about_point_title",
+                "button_label": "Додати пункт",
+                "sub_fields": [
+                    {
+                        "key": "field_autofix_about_point_title",
+                        "label": "Заголовок",
+                        "name": "title",
+                        "type": "text",
+                        "required": 1,
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_autofix_about_point_text",
+                        "label": "Опис",
+                        "name": "text",
+                        "type": "textarea",
+                        "required": 1,
+                        "default_value": "",
+                        "rows": 3,
+                        "new_lines": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_autofix_about_tab_diagram",
+                "label": "Схема автомобіля",
+                "name": "",
+                "type": "tab",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_autofix_about_diagram_heading",
+                "label": "Підпис над схемою",
+                "name": "about_diagram_heading",
+                "type": "text",
+                "required": 0,
+                "default_value": "AUTO FIX / SERVICE VIEW"
+            },
+            {
+                "key": "field_autofix_about_diagram_footer",
+                "label": "Підпис під схемою",
+                "name": "about_diagram_footer",
+                "type": "text",
+                "required": 0,
+                "default_value": "КОЖНА ДЕТАЛЬ МАЄ ЗНАЧЕННЯ"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "acf/about-section"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "Поля секції 03 / Наш підхід. Потрібен ACF PRO.",
+        "show_in_rest": 0
+    }
+]

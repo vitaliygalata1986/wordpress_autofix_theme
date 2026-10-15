@@ -1,0 +1,206 @@
+[
+    {
+        "key": "group_autofix_services",
+        "title": "AUTO FIX — Послуги",
+        "fields": [
+            {
+                "key": "field_autofix_services_tab_heading",
+                "label": "Заголовок секції",
+                "name": "",
+                "type": "tab",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_autofix_services_eyebrow",
+                "label": "Підпис секції",
+                "name": "services_eyebrow",
+                "type": "text",
+                "required": 0,
+                "default_value": "01 / ПОСЛУГИ"
+            },
+            {
+                "key": "field_autofix_services_title",
+                "label": "Заголовок секції",
+                "name": "services_title",
+                "type": "textarea",
+                "instructions": "Enter додає перенесення рядка. HTML не потрібен.",
+                "required": 1,
+                "default_value": "Щоб кожен кілометр\nбув у задоволення.",
+                "rows": 2,
+                "new_lines": ""
+            },
+            {
+                "key": "field_autofix_services_intro",
+                "label": "Текст праворуч від заголовка",
+                "name": "services_intro",
+                "type": "textarea",
+                "instructions": "Enter додає перенесення рядка.",
+                "required": 0,
+                "default_value": "Планове обслуговування чи незвичний звук?\nОберіть напрямок — і подивіться,\nз чого можна почати.",
+                "rows": 3,
+                "new_lines": ""
+            },
+            {
+                "key": "field_autofix_services_tab_cards",
+                "label": "Картки послуг",
+                "name": "",
+                "type": "tab",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_autofix_services_items",
+                "label": "Послуги",
+                "name": "services_items",
+                "type": "repeater",
+                "instructions": "Додайте картки з таблиці README. Номери 01, 02… та порядок виведення відповідають порядку рядків.",
+                "required": 0,
+                "layout": "block",
+                "min": 0,
+                "max": 0,
+                "collapsed": "field_autofix_services_item_title",
+                "button_label": "Додати послугу",
+                "sub_fields": [
+                    {
+                        "key": "field_autofix_services_item_icon",
+                        "label": "Іконка",
+                        "name": "icon",
+                        "type": "select",
+                        "required": 1,
+                        "choices": {
+                            "oil": "Олива",
+                            "scan": "Діагностика",
+                            "spring": "Підвіска",
+                            "wheel": "Колесо",
+                            "engine": "Двигун",
+                            "climate": "Клімат",
+                            "welding": "Зварювання"
+                        },
+                        "default_value": "engine",
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value"
+                    },
+                    {
+                        "key": "field_autofix_services_item_title",
+                        "label": "Назва послуги",
+                        "name": "title",
+                        "type": "text",
+                        "required": 1,
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_autofix_services_item_text",
+                        "label": "Опис послуги",
+                        "name": "text",
+                        "type": "textarea",
+                        "required": 1,
+                        "default_value": "",
+                        "rows": 3,
+                        "new_lines": ""
+                    },
+                    {
+                        "key": "field_autofix_services_item_category",
+                        "label": "Категорія прайсу",
+                        "name": "category",
+                        "type": "select",
+                        "instructions": "Вибрана категорія веде до прайсу та активує відповідний фільтр. Для телефонного запису залиште порожнім.",
+                        "required": 0,
+                        "choices": {
+                            "maintenance": "Планове ТО",
+                            "diagnostics": "Діагностика",
+                            "chassis": "Ходова",
+                            "engine": "Двигун",
+                            "climate": "Кондиціонування"
+                        },
+                        "default_value": "",
+                        "allow_null": 1,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value"
+                    },
+                    {
+                        "key": "field_autofix_services_item_link",
+                        "label": "Посилання та підпис дії",
+                        "name": "link",
+                        "type": "link",
+                        "instructions": "Для послуг із категорією прайсу URL автоматично буде #prices. Для інших послуг вкажіть URL або телефонний номер у форматі tel:+380…",
+                        "required": 0,
+                        "return_format": "array"
+                    }
+                ]
+            },
+            {
+                "key": "field_autofix_services_tab_help",
+                "label": "Підказки та контакти",
+                "name": "",
+                "type": "tab",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_autofix_services_help_items",
+                "label": "Рядки допомоги",
+                "name": "services_help_items",
+                "type": "repeater",
+                "instructions": "Додайте дві вихідні підказки або змініть їх. Для першого посилання можна ввімкнути відкриття діалогу запису.",
+                "required": 0,
+                "layout": "block",
+                "min": 0,
+                "max": 0,
+                "collapsed": "field_autofix_services_help_text",
+                "button_label": "Додати підказку",
+                "sub_fields": [
+                    {
+                        "key": "field_autofix_services_help_text",
+                        "label": "Текст підказки",
+                        "name": "text",
+                        "type": "text",
+                        "required": 1,
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_autofix_services_help_link",
+                        "label": "Посилання",
+                        "name": "link",
+                        "type": "link",
+                        "required": 0,
+                        "return_format": "array"
+                    },
+                    {
+                        "key": "field_autofix_services_help_dialog",
+                        "label": "Відкривати діалог запису",
+                        "name": "open_contact_dialog",
+                        "type": "true_false",
+                        "instructions": "Працює для посилання запису на консультацію.",
+                        "required": 0,
+                        "default_value": 0,
+                        "ui": 1,
+                        "ui_on_text": "Так",
+                        "ui_off_text": "Ні"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "acf/services-section"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "Поля секції 01 / Послуги. Потрібен ACF PRO.",
+        "show_in_rest": 0
+    }
+]

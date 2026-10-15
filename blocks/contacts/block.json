@@ -1,0 +1,34 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "acf/contacts-section",
+    "title": "Зустрінемось на сервісі",
+    "description": "Контакти автосервісу: телефони, адреса, мапа та соціальні мережі.",
+    "category": "autofix-blocks",
+    "icon": "location-alt",
+    "keywords": [
+        "контакти",
+        "телефони",
+        "адреса",
+        "соцмережі"
+    ],
+    "textdomain": "autofix",
+    "supports": {
+        "anchor": true,
+        "align": false,
+        "multiple": false
+    },
+    "acf": {
+        "blockVersion": 2,
+        "mode": "edit",
+        "renderTemplate": "contacts-section.php"
+    },
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "preview_image": "/blocks/contacts/contacts.jpg"
+            }
+        }
+    }
+}

@@ -1,0 +1,248 @@
+[
+    {
+        "key": "group_autofix_contacts",
+        "title": "AUTO FIX — Зустрінемось на сервісі",
+        "fields": [
+            {
+                "key": "field_autofix_contacts_tab_heading",
+                "label": "Заголовок",
+                "name": "",
+                "type": "tab",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_autofix_contacts_eyebrow",
+                "label": "Підпис секції",
+                "name": "contacts_eyebrow",
+                "type": "text",
+                "required": 0,
+                "default_value": "07 / ЗУСТРІНЕМОСЬ НА СЕРВІСІ"
+            },
+            {
+                "key": "field_autofix_contacts_location",
+                "label": "Місто та країна",
+                "name": "contacts_location",
+                "type": "text",
+                "required": 0,
+                "default_value": "Миколаїв, Україна"
+            },
+            {
+                "key": "field_autofix_contacts_title",
+                "label": "Заголовок секції",
+                "name": "contacts_title",
+                "type": "textarea",
+                "required": 1,
+                "default_value": "Дайте авто турботу.\nСобі — спокій.",
+                "rows": 2,
+                "new_lines": "",
+                "instructions": "Enter додає перенесення рядка. HTML не потрібен."
+            },
+            {
+                "key": "field_autofix_contacts_call_label",
+                "label": "Опис кнопки зі стрілкою",
+                "name": "contacts_call_label",
+                "type": "text",
+                "required": 1,
+                "default_value": "Зателефонувати для запису"
+            },
+            {
+                "key": "field_autofix_contacts_tab_phones",
+                "label": "Телефони",
+                "name": "",
+                "type": "tab",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_autofix_contacts_phone_label",
+                "label": "Підпис основного телефону",
+                "name": "contacts_phone_label",
+                "type": "text",
+                "required": 0,
+                "default_value": "АВТОСЕРВІС · ЗАПИС І КОНСУЛЬТАЦІЯ"
+            },
+            {
+                "key": "field_autofix_contacts_phone",
+                "label": "Основний телефон",
+                "name": "contacts_phone",
+                "type": "text",
+                "required": 1,
+                "default_value": "+380 66 056 81 21",
+                "instructions": "Вкажіть номер із кодом країни. Пробіли, дужки й дефіси допустимі. Посилання tel: та кнопка зі стрілкою використовують цей номер."
+            },
+            {
+                "key": "field_autofix_contacts_extra_phones",
+                "label": "Додаткові телефони",
+                "name": "contacts_extra_phones",
+                "type": "repeater",
+                "instructions": "Наприклад, евакуатор і розвал-сходження. Порядок можна змінити перетягуванням рядків.",
+                "required": 0,
+                "layout": "block",
+                "min": 0,
+                "max": 0,
+                "collapsed": "field_autofix_contacts_extra_label",
+                "button_label": "Додати телефон",
+                "sub_fields": [
+                    {
+                        "key": "field_autofix_contacts_extra_label",
+                        "label": "Назва послуги",
+                        "name": "label",
+                        "type": "text",
+                        "required": 1,
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_autofix_contacts_extra_phone",
+                        "label": "Телефон",
+                        "name": "phone",
+                        "type": "text",
+                        "required": 1,
+                        "default_value": "",
+                        "instructions": "Номер із кодом країни, наприклад +380 95 421 74 15. Посилання tel: формується автоматично."
+                    }
+                ]
+            },
+            {
+                "key": "field_autofix_contacts_tab_address",
+                "label": "Адреса",
+                "name": "",
+                "type": "tab",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_autofix_contacts_address_label",
+                "label": "Підпис адреси",
+                "name": "contacts_address_label",
+                "type": "text",
+                "required": 0,
+                "default_value": "ЧЕКАЄМО НА ВАС"
+            },
+            {
+                "key": "field_autofix_contacts_address",
+                "label": "Адреса",
+                "name": "contacts_address",
+                "type": "textarea",
+                "required": 1,
+                "default_value": "Миколаїв, вул. Троїцька, 244",
+                "rows": 2,
+                "new_lines": "",
+                "instructions": "Enter додає перенесення рядка. HTML не потрібен."
+            },
+            {
+                "key": "field_autofix_contacts_address_note",
+                "label": "Уточнення адреси жирним текстом",
+                "name": "contacts_address_note",
+                "type": "text",
+                "required": 0,
+                "default_value": "Авторинок, бокс 10"
+            },
+            {
+                "key": "field_autofix_contacts_map_link",
+                "label": "Посилання на мапу",
+                "name": "contacts_map_link",
+                "type": "link",
+                "required": 0,
+                "return_format": "array",
+                "instructions": "Вставте URL мапи, текст «Відкрити адресу на мапі» та за потреби увімкніть відкриття в новій вкладці."
+            },
+            {
+                "key": "field_autofix_contacts_hours",
+                "label": "Графік або примітка",
+                "name": "contacts_hours",
+                "type": "textarea",
+                "required": 0,
+                "default_value": "Графік і час візиту уточнюйте телефоном.",
+                "rows": 2,
+                "new_lines": "",
+                "instructions": "Enter додає перенесення рядка. HTML не потрібен."
+            },
+            {
+                "key": "field_autofix_contacts_tab_social",
+                "label": "Соцмережі",
+                "name": "",
+                "type": "tab",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_autofix_contacts_social_title",
+                "label": "Заголовок соцмереж",
+                "name": "contacts_social_title",
+                "type": "text",
+                "required": 0,
+                "default_value": "Життя AUTO FIX — у соцмережах"
+            },
+            {
+                "key": "field_autofix_contacts_social_description",
+                "label": "Опис соцмереж",
+                "name": "contacts_social_description",
+                "type": "textarea",
+                "required": 0,
+                "default_value": "Наші роботи, обладнання та будні автосервісу.",
+                "rows": 2,
+                "new_lines": "",
+                "instructions": "Enter додає перенесення рядка. HTML не потрібен."
+            },
+            {
+                "key": "field_autofix_contacts_social_links",
+                "label": "Соціальні мережі",
+                "name": "contacts_social_links",
+                "type": "repeater",
+                "required": 0,
+                "layout": "block",
+                "min": 0,
+                "max": 0,
+                "collapsed": "field_autofix_contacts_social_link",
+                "button_label": "Додати соцмережу",
+                "sub_fields": [
+                    {
+                        "key": "field_autofix_contacts_social_icon",
+                        "label": "Іконка",
+                        "name": "icon",
+                        "type": "select",
+                        "required": 0,
+                        "choices": {
+                            "instagram": "Instagram",
+                            "tiktok": "TikTok",
+                            "none": "Без іконки"
+                        },
+                        "default_value": "none",
+                        "return_format": "value",
+                        "multiple": 0,
+                        "allow_null": 0,
+                        "ui": 0
+                    },
+                    {
+                        "key": "field_autofix_contacts_social_link",
+                        "label": "Посилання",
+                        "name": "link",
+                        "type": "link",
+                        "required": 1,
+                        "return_format": "array",
+                        "instructions": "Вкажіть URL профілю, назву соцмережі та відкриття в новій вкладці за потреби."
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "acf/contacts-section"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "Поля секції 07 / Зустрінемось на сервісі. Потрібен ACF PRO.",
+        "show_in_rest": 0
+    }
+]

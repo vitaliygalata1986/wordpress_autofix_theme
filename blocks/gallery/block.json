@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "acf/gallery-section",
+    "title": "Наш сервіс зблизька",
+    "description": "Фотогалерея автосервісу з підписами та переглядом фото у повному розмірі.",
+    "category": "autofix-blocks",
+    "icon": "format-gallery",
+    "keywords": [
+        "галерея",
+        "фото",
+        "сервіс"
+    ],
+    "textdomain": "autofix",
+    "supports": {
+        "anchor": true,
+        "align": false,
+        "multiple": false
+    },
+    "acf": {
+        "blockVersion": 2,
+        "mode": "edit",
+        "renderTemplate": "gallery-section.php"
+    },
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "preview_image": "/blocks/gallery/gallery.jpg"
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "acf/services-section",
+    "title": "Послуги AUTO FIX",
+    "description": "Послуги автосервісу з переходами до відповідних цін або запису телефоном.",
+    "category": "autofix-blocks",
+    "icon": "admin-tools",
+    "keywords": [
+        "послуги",
+        "сервіс",
+        "ремонт",
+        "автосервіс"
+    ],
+    "textdomain": "autofix",
+    "supports": {
+        "anchor": true,
+        "align": false,
+        "multiple": false
+    },
+    "acf": {
+        "blockVersion": 2,
+        "mode": "edit",
+        "renderTemplate": "services-section.php"
+    },
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "preview_image": "/blocks/services/services.jpg"
+            }
+        }
+    }
+}

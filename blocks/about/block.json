@@ -1,0 +1,34 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "acf/about-section",
+    "title": "Наш підхід",
+    "description": "Секція про діагностику ходової та принципи роботи AUTO FIX.",
+    "category": "autofix-blocks",
+    "icon": "admin-tools",
+    "keywords": [
+        "про нас",
+        "підхід",
+        "діагностика",
+        "переваги"
+    ],
+    "textdomain": "autofix",
+    "supports": {
+        "anchor": true,
+        "align": false,
+        "multiple": false
+    },
+    "acf": {
+        "blockVersion": 2,
+        "mode": "edit",
+        "renderTemplate": "about-section.php"
+    },
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "preview_image": "/blocks/about/about.jpg"
+            }
+        }
+    }
+}

@@ -1,0 +1,468 @@
+# Blank WordPress Pot
+# Copyright 2014 ...
+# This file is distributed under the GNU General Public License v3 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Blank WordPress Pot v1.0.0\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2026-10-15 14:30+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Your Team <translations@example.com>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: assets/js/script.js:13 assets/js/script.js:19 header.php:28
+msgid "Відкрити меню"
+msgstr ""
+
+#: assets/js/script.js:19
+msgid "Закрити меню"
+msgstr ""
+
+#: assets/js/script.js:89
+#, javascript-format
+msgid "Обрано послуг: %d"
+msgstr ""
+
+#: assets/js/script.js:90 blocks/prices/prices-section.php:117
+msgid "Послуги ще не обрані"
+msgstr ""
+
+#: assets/js/script.js:119
+#, javascript-format
+msgid "від %s грн"
+msgstr ""
+
+#: assets/js/script.js:124
+msgid "Збережіть список і погодьте деталі візиту телефоном."
+msgstr ""
+
+#: assets/js/script.js:125
+msgid ""
+"Послуги ще не обрані. Позначте їх у прайсі або обговоріть потрібні роботи "
+"телефоном."
+msgstr ""
+
+#: assets/js/script.js:127
+#, javascript-format
+msgid "Орієнтовно: від %s грн"
+msgstr ""
+
+#: assets/js/script.js:184
+msgid "AUTO FIX — список робіт для обговорення"
+msgstr ""
+
+#: assets/js/script.js:186
+#, javascript-format
+msgid "• %1$s: від %2$s грн"
+msgstr ""
+
+#: assets/js/script.js:189
+#, javascript-format
+msgid "Разом: від %s грн (демонстраційний прайс, без деталей та матеріалів)."
+msgstr ""
+
+#: assets/js/script.js:192
+msgid ""
+"Фактичну ціну і запис потрібно підтвердити телефоном: +380 66 056 81 21."
+msgstr ""
+
+#: assets/js/script.js:196
+msgid "Список скопійовано. Його можна зберегти у свої нотатки."
+msgstr ""
+
+#: assets/js/script.js:202
+msgid "Автоматичне копіювання недоступне. Скопіюйте виділений текст вручну."
+msgstr ""
+
+#: assets/js/script.js:285 blocks/gallery/gallery-section.php:85
+msgid "Попереднє фото"
+msgstr ""
+
+#: assets/js/script.js:286 blocks/gallery/gallery-section.php:86
+msgid "Наступне фото"
+msgstr ""
+
+#: assets/js/script.js:287
+msgid "Перейти до фото {{index}}"
+msgstr ""
+
+#: assets/js/script.js:288
+msgid "{{index}} з {{slidesLength}}"
+msgstr ""
+
+#: assets/js/script.js:289
+msgid "слайд"
+msgstr ""
+
+#: assets/js/script.js:310
+msgid "Увімкнути автоматичну зміну фотографій"
+msgstr ""
+
+#: assets/js/script.js:311 blocks/gallery/gallery-section.php:80
+msgid "Зупинити автоматичну зміну фотографій"
+msgstr ""
+
+#: assets/js/script.js:314
+msgid "Відтворити"
+msgstr ""
+
+#: assets/js/script.js:315 blocks/gallery/gallery-section.php:81
+msgid "Пауза"
+msgstr ""
+
+#: blocks/about/about-section.php:7
+msgid "Наш підхід — попередній перегляд"
+msgstr ""
+
+#: blocks/about/about-section.php:9
+msgid "Наш підхід — схема діагностики та переваги AUTO FIX."
+msgstr ""
+
+#: blocks/contacts/contacts-section.php:6
+msgid "Зустрінемось на сервісі — попередній перегляд"
+msgstr ""
+
+#: blocks/contacts/contacts-section.php:79 footer.php:24
+msgid "Зателефонувати для запису"
+msgstr ""
+
+#: blocks/faq/faq-section.php:6
+msgid "Корисно знати — попередній перегляд"
+msgstr ""
+
+#: blocks/gallery/gallery-section.php:7
+msgid "Наш сервіс зблизька — попередній перегляд"
+msgstr ""
+
+#: blocks/gallery/gallery-section.php:9
+msgid "Наш сервіс зблизька — фотогалерея автосервісу."
+msgstr ""
+
+#: blocks/gallery/gallery-section.php:62
+msgid "карусель"
+msgstr ""
+
+#: blocks/gallery/gallery-section.php:62
+msgid "Фотографії автосервісу AUTO FIX"
+msgstr ""
+
+#: blocks/gallery/gallery-section.php:67
+#, php-format
+msgid "Відкрити фото: %s (нова вкладка)"
+msgstr ""
+
+#: blocks/gallery/gallery-section.php:67
+#, php-format
+msgid "Фото %d"
+msgstr ""
+
+#: blocks/gallery/gallery-section.php:67
+#, php-format
+msgid "Відкрити фото: %s"
+msgstr ""
+
+#: blocks/gallery/gallery-section.php:92
+msgid "Додайте фотографії та підписи в полях блоку."
+msgstr ""
+
+#: blocks/hero/hero-section.php:5
+msgid "Головний екран AUTO FIX — попередній перегляд"
+msgstr ""
+
+#: blocks/hero/hero-section.php:50
+msgid "Ілюстрація автомобіля в сучасній майстерні"
+msgstr ""
+
+#: blocks/prices/prices-section.php:7
+msgid "Вартість робіт — попередній перегляд"
+msgstr ""
+
+#: blocks/prices/prices-section.php:9
+msgid "Вартість робіт — прайс і розрахунок вартості послуг."
+msgstr ""
+
+#: blocks/prices/prices-section.php:29
+msgid "Уточнити ціну телефоном"
+msgstr ""
+
+#: blocks/prices/prices-section.php:67
+msgid "Фільтр послуг"
+msgstr ""
+
+#: blocks/prices/prices-section.php:68
+msgid "Усі послуги"
+msgstr ""
+
+#: blocks/prices/prices-section.php:69
+msgid "ТО"
+msgstr ""
+
+#: blocks/prices/prices-section.php:70
+msgid "Діагностика"
+msgstr ""
+
+#: blocks/prices/prices-section.php:71
+msgid "Ходова й гальма"
+msgstr ""
+
+#: blocks/prices/prices-section.php:72
+msgid "Двигун"
+msgstr ""
+
+#: blocks/prices/prices-section.php:73
+msgid "Клімат"
+msgstr ""
+
+#: blocks/prices/prices-section.php:76
+msgid "ПОСЛУГА"
+msgstr ""
+
+#: blocks/prices/prices-section.php:76
+msgid "РОБОТА, ВІД"
+msgstr ""
+
+#: blocks/prices/prices-section.php:98 blocks/prices/prices-section.php:119
+msgid "грн"
+msgstr ""
+
+#: blocks/prices/prices-section.php:119
+msgid "від"
+msgstr ""
+
+#: blocks/prices/prices-section.php:124
+msgid "Переглянути список"
+msgstr ""
+
+#: blocks/prices/prices-section.php:129
+msgid "Очистити вибір"
+msgstr ""
+
+#: blocks/prices/prices-section.php:130
+msgid ""
+"Для підрахунку ввімкніть JavaScript. Усі ціни й телефон доступні без нього."
+msgstr ""
+
+#: blocks/process/process-section.php:5
+msgid "Як це працює — попередній перегляд"
+msgstr ""
+
+#: blocks/services/services-section.php:7
+msgid "Послуги AUTO FIX — попередній перегляд"
+msgstr ""
+
+#: blocks/services/services-section.php:9
+msgid ""
+"Послуги AUTO FIX — картки напрямків обслуговування та телефонні посилання."
+msgstr ""
+
+#: footer.php:3 inc/customizer.php:58
+msgid ""
+"Турбота про авто.\n"
+"Повага до вашого часу."
+msgstr ""
+
+#: footer.php:4 inc/customizer.php:69
+msgid "Миколаїв · вул. Троїцька, 244 · бокс 10"
+msgstr ""
+
+#: footer.php:13
+msgid "Нагору ↑"
+msgstr ""
+
+#: footer.php:16 inc/customizer.php:21 template-parts/logo.php:4
+msgid "AUTO FIX"
+msgstr ""
+
+#: footer.php:20
+msgid "Прайс потребує погодження."
+msgstr ""
+
+#: functions.php:12
+msgid "Меню в шапці"
+msgstr ""
+
+#: header.php:13
+msgid ""
+"AUTO FIX — автосервіс у Миколаєві: діагностика на німецькому вібростенді, "
+"розвал-сходження, ремонт двигунів і дизельних паливних систем. Вул. "
+"Троїцька, 244, авторинок, бокс 10. Телефон: +380 66 056 81 21."
+msgstr ""
+
+#: header.php:32
+msgid "Головне меню"
+msgstr ""
+
+#: inc/acf-gutenberg-register-blocks.php:27
+msgid "Секції AUTO FIX"
+msgstr ""
+
+#: inc/customizer.php:6
+msgid "Автосервіс"
+msgstr ""
+
+#: inc/customizer.php:7
+msgid "Евакуатор"
+msgstr ""
+
+#: inc/customizer.php:8
+msgid "Розвал-сходження"
+msgstr ""
+
+#: inc/customizer.php:27
+msgid "Текст біля логотипа"
+msgstr ""
+
+#: inc/customizer.php:34 template-parts/logo.php:5
+msgid "АВТОСЕРВІС · МИКОЛАЇВ"
+msgstr ""
+
+#: inc/customizer.php:40
+msgid "Підпис під логотипом"
+msgstr ""
+
+#: inc/customizer.php:47
+msgid "Телефони в шапці"
+msgstr ""
+
+#: inc/customizer.php:48
+msgid ""
+"Підписи та номери трьох телефонів у шапці. Залиште номер порожнім, щоб "
+"приховати його."
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Футер"
+msgstr ""
+
+#: inc/customizer.php:63
+msgid "Текст у футері"
+msgstr ""
+
+#: inc/customizer.php:74
+msgid "Адреса у футері"
+msgstr ""
+
+#: inc/customizer.php:80
+msgid "Підпис"
+msgstr ""
+
+#: inc/customizer.php:80
+msgid "Телефон"
+msgstr ""
+
+#: template-parts/dialog-contact.php:6
+msgid "Закрити вибір зв’язку"
+msgstr ""
+
+#: template-parts/dialog-contact.php:9
+msgid "НА ЗВ’ЯЗКУ"
+msgstr ""
+
+#: template-parts/dialog-contact.php:10
+msgid "Поговорити зі старшим механіком"
+msgstr ""
+
+#: template-parts/dialog-contact.php:11
+msgid ""
+"Оберіть зручний спосіб: зателефонуйте або напишіть, що турбує ваше авто."
+msgstr ""
+
+#: template-parts/dialog-contact.php:15 template-parts/dialog-selection.php:21
+msgid "Зателефонувати"
+msgstr ""
+
+#: template-parts/dialog-contact.php:22 template-parts/dialog-contact.php:31
+#: template-parts/dialog-contact.php:41
+msgid "Написати механіку"
+msgstr ""
+
+#: template-parts/dialog-gallery.php:4
+msgid "Перегляд фотографії"
+msgstr ""
+
+#: template-parts/dialog-gallery.php:5
+msgid "Закрити фото"
+msgstr ""
+
+#: template-parts/dialog-gallery.php:10
+msgid "Не вдалося завантажити фото. Спробуйте ще раз."
+msgstr ""
+
+#: template-parts/dialog-selection.php:6
+msgid "Закрити"
+msgstr ""
+
+#: template-parts/dialog-selection.php:9
+msgid "ПЛАН ВІЗИТУ"
+msgstr ""
+
+#: template-parts/dialog-selection.php:10
+msgid "Ваш список робіт"
+msgstr ""
+
+#: template-parts/dialog-selection.php:12
+msgid "Оберіть роботи в прайсі або обговоріть потрібну послугу телефоном."
+msgstr ""
+
+#: template-parts/dialog-selection.php:17
+msgid ""
+"Попередній розрахунок за демонстраційними цінами. Запчастини та\n"
+"            матеріали не включено. Запис і вартість підтверджуються "
+"телефоном."
+msgstr ""
+
+#: template-parts/dialog-selection.php:26
+msgid "Скопіювати список"
+msgstr ""
+
+#: template-parts/dialog-selection.php:32
+msgid "Список для ручного копіювання"
+msgstr ""
+
+#: template-parts/logo.php:12
+#, php-format
+msgid "%s — на головну"
+msgstr ""
+
+#: template-parts/logo.php:13
+msgid "На головну"
+msgstr ""
+
+#: template-parts/principles.php:9
+msgid "Діагностика під навантаженням"
+msgstr ""
+
+#: template-parts/principles.php:10
+msgid "Німецький вібростенд"
+msgstr ""
+
+#: template-parts/principles.php:15
+msgid "Усе по поличках"
+msgstr ""
+
+#: template-parts/principles.php:16
+msgid "Роботи та запчастини окремо"
+msgstr ""
+
+#: template-parts/principles.php:20
+msgid "На зв’язку з вами"
+msgstr ""
+
+#: template-parts/principles.php:21
+msgid "Деталі візиту — одним дзвінком"
+msgstr ""

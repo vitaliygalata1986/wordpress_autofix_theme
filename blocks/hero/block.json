@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "acf/hero-section",
+    "title": "Головний екран AUTO FIX",
+    "description": "Перший екран: зображення, заголовок, кнопки та підписи.",
+    "category": "autofix-blocks",
+    "icon": "cover-image",
+    "keywords": [
+        "hero",
+        "головний екран",
+        "автосервіс"
+    ],
+    "textdomain": "autofix",
+    "supports": {
+        "anchor": true,
+        "align": false,
+        "multiple": false
+    },
+    "acf": {
+        "blockVersion": 2,
+        "mode": "edit",
+        "renderTemplate": "hero-section.php"
+    },
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "preview_image": "/blocks/hero/hero.jpg"
+            }
+        }
+    }
+}

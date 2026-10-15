@@ -1,0 +1,102 @@
+[
+    {
+        "key": "group_autofix_faq",
+        "title": "AUTO FIX — Корисно знати",
+        "fields": [
+            {
+                "key": "field_autofix_faq_eyebrow",
+                "label": "Підпис секції",
+                "name": "faq_eyebrow",
+                "type": "text",
+                "instructions": "Номер і коротка назва секції над заголовком.",
+                "required": 0,
+                "default_value": "06 / КОРИСНО ЗНАТИ"
+            },
+            {
+                "key": "field_autofix_faq_title",
+                "label": "Заголовок секції",
+                "name": "faq_title",
+                "type": "textarea",
+                "instructions": "Enter додає перенесення рядка. HTML не потрібен.",
+                "required": 1,
+                "default_value": "Є питання?\nЄ відповіді.",
+                "rows": 2,
+                "new_lines": ""
+            },
+            {
+                "key": "field_autofix_faq_description",
+                "label": "Текст під заголовком",
+                "name": "faq_description",
+                "type": "textarea",
+                "instructions": "Коротке пояснення під заголовком. Enter додає перенесення рядка.",
+                "required": 0,
+                "default_value": "А про ваше авто краще\nпоговорити особисто.",
+                "rows": 2,
+                "new_lines": ""
+            },
+            {
+                "key": "field_autofix_faq_link",
+                "label": "Контактне посилання",
+                "name": "faq_link",
+                "type": "link",
+                "instructions": "Для поточної верстки: URL — tel:+380660568121, текст — +380 66 056 81 21. Порожнє посилання не відображатиметься.",
+                "required": 0,
+                "return_format": "array"
+            },
+            {
+                "key": "field_autofix_faq_items",
+                "label": "Питання та відповіді",
+                "name": "faq_items",
+                "type": "repeater",
+                "instructions": "У початковій верстці 7 питань. Додавайте, видаляйте та перетягуйте рядки для зміни порядку.",
+                "required": 1,
+                "layout": "block",
+                "min": 1,
+                "max": 0,
+                "collapsed": "field_autofix_faq_question",
+                "button_label": "Додати питання",
+                "sub_fields": [
+                    {
+                        "key": "field_autofix_faq_question",
+                        "label": "Питання",
+                        "name": "question",
+                        "type": "text",
+                        "required": 1,
+                        "default_value": ""
+                    },
+                    {
+                        "key": "field_autofix_faq_answer",
+                        "label": "Відповідь",
+                        "name": "answer",
+                        "type": "wysiwyg",
+                        "instructions": "Можна додавати абзаци та посилання, зокрема на телефон у форматі tel:+380660568121.",
+                        "required": 1,
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "basic",
+                        "media_upload": 0,
+                        "delay": 0
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "block",
+                    "operator": "==",
+                    "value": "acf/faq-section"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "Поля секції 06 / Корисно знати. Потрібен ACF PRO.",
+        "show_in_rest": 0
+    }
+]

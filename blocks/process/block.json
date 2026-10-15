@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "acf/process-section",
+    "title": "Як це працює",
+    "description": "Секція з послідовністю кроків обслуговування автомобіля.",
+    "category": "autofix-blocks",
+    "icon": "editor-ol",
+    "keywords": [
+        "процес",
+        "кроки",
+        "як це працює"
+    ],
+    "textdomain": "autofix",
+    "supports": {
+        "anchor": true,
+        "align": false,
+        "multiple": false
+    },
+    "acf": {
+        "blockVersion": 2,
+        "mode": "edit",
+        "renderTemplate": "process-section.php"
+    },
+    "example": {
+        "attributes": {
+            "mode": "preview",
+            "data": {
+                "preview_image": true
+            }
+        }
+    }
+}
